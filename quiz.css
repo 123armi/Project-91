@@ -1,0 +1,75 @@
+#background
+{
+    background-image: url(quiz_bg.png);
+    background-position: center;
+}
+
+h2
+{
+    color: rgb(194, 255, 255);
+    text-shadow: 5px 5px 5px honeydew;
+}
+
+h3
+{
+    color: azure;
+    text-shadow: 2px 2px 5px rgb(191, 122, 255);
+}
+
+.button
+{
+    width: 30%;
+    background-image: white;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button1
+{
+    background-color: white;
+    color: black;
+}
+
+.button1:hover
+{
+    background-color: #039dfc;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input
+{
+    font-family: cursive;
+    font-size: 15px;
+	line-height: 20px;
+	width: 200px;
+	height: 50px;
+	color: black;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(223, 205, 205);
+    outline: none;
+}
+
+input:hover
+{
+    color: whitesmoke;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #039dfc;
+padding: 10px;
+float: none;
+text-align: left;
+}

@@ -16,6 +16,27 @@ h3
     text-shadow: 2px 2px 5px rgb(191, 122, 255);
 }
 
+h4
+{
+    color: azure;
+    text-shadow: 2px 2px 5px rgb(191, 122, 255);
+    margin-left: 10px;
+}
+
+#player1_score
+{
+    color: azure;
+    text-shadow: 2px 2px 5px rgb(191, 122, 255);
+    margin-left: 10px;
+}
+
+#player2_score
+{
+    color: azure;
+    text-shadow: 2px 2px 5px rgb(191, 122, 255);
+    margin-left: 10px;
+}
+
 .button
 {
     width: 30%;
@@ -42,7 +63,7 @@ h3
 {
     background-color: #039dfc;
     color: white;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 #ffffff, 0 6px 20px 0 #00000030;
 }
 
 input
@@ -52,16 +73,11 @@ input
 	line-height: 20px;
 	width: 200px;
 	height: 50px;
-	color: black;
+	color: white;
     background: none;
     border: none;
-    border-bottom: 1px solid rgb(223, 205, 205);
+    border-bottom: 1px solid #dfcdcd;
     outline: none;
-}
-
-input:hover
-{
-    color: whitesmoke;
 }
 
 #output
@@ -72,4 +88,9 @@ border-top: 10px solid #039dfc;
 padding: 10px;
 float: none;
 text-align: left;
+}
+
+#input_check_box
+{
+    color: rgb(23, 58, 122);
 }
